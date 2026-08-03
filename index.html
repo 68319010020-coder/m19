@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Real Weather Forecast</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="overlay">
+
+<div class="card">
+
+<h1>🌤 Real Weather Forecast</h1>
+
+<div class="search">
+
+<input
+id="lat"
+type="number"
+placeholder="Latitude เช่น 13.7563">
+
+<input
+id="lon"
+type="number"
+placeholder="Longitude เช่น 100.5018">
+
+<button onclick="getWeather()">
+
+ค้นหาสภาพอากาศ
+
+</button>
+
+</div>
+
+<div id="loading"></div>
+
+<div id="weather"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
